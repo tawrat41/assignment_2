@@ -1,0 +1,151 @@
+/* font  */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600&display=swap');
+
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    margin: 0px;
+}
+
+header {
+    background-color: rgba(255, 144, 14, 0.1);
+    height: 1322px;
+    width: 100%;
+}
+
+
+/* navbar */
+.nav-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 230px;
+    margin-right: 230px;
+}
+
+.g3-archi {
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.bullet ul {
+    display: flex;
+}
+
+.bullet li a {
+    text-decoration: none;
+    color: #424242;
+}
+
+.bullet li {
+    list-style: none;
+    margin-left: 10px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+/* header-body */
+.title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-info {
+    height: 225px;
+    width: 860px;
+    /* margin-bottom: 35px; */
+}
+
+.header-title {
+    font-weight: 700;
+    font-size: 64px;
+    text-align: center;
+    color: #131313;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.header-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #727272;
+}
+
+.explore-me,
+.explore-more {
+    width: 180px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    background-color: #FF900E;
+    border: 0;
+    border-radius: 8px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+
+}
+
+.header-image {
+    height: 800px;
+    /* width: 90%; */
+}
+
+/* ------   second section    ---------- */
+
+section {
+    margin-top: 85px;
+    /* margin-left: 300px; */
+}
+.second-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 24px;
+    width: 50%;
+    margin-left: 200px;
+}
+
+.image img {
+    height: 342px;
+    width: 342px;
+}
+
+.section-description {
+    width: 50%;
+    height: 304px;
+    margin-right: 200px;
+    margin-left: 70px;
+}
+
+.section-description h3 {
+    font-weight: 500;
+    font-size: 45px;
+}
+
+.section-description p {
+    font-weight: 400;
+    font-size: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.grey{
+    color: #727272;
+}
+.orange{
+    color: #FF900E;
+}
